@@ -1,7 +1,7 @@
 // Place your FizzBuzz code here. 
 var fizzBuzz = function(){
 	//establishes the fizzbuzz code as a function that can be used in other objects or functions
-	for (var i = 0; i <= 20; i++){
+	for (var i = 1; i <= 20; i++){
 		//i starts at 0, adds up to 20 in increments of 1
 		if((i % 3 === 0) && (i % 5 === 0)){
 			//if i is divisible by 3 and 5 at the same time (priority):
