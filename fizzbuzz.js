@@ -6,19 +6,19 @@ var fizzBuzz = function(){
 		if((i % 3 === 0) && (i % 5 === 0)){
 			//if i is divisible by 3 and 5 at the same time (priority):
 			console.log("Fizzbuzz");
-			document.write("Fizzbuzz");
+			document.write("Fizzbuzz ");
 		}else if(i % 3 === 0){
 			//or if i is only divisible by 3
 			console.log("Fizz");
-			document.write("Fizz");
+			document.write("Fizz ");
 		}else if(i % 5 === 0){
 			//or if i is only divisible by 5
 			console.log("Buzz");
-			document.write("Buzz");
+			document.write("Buzz ");
 		}else{
 			//or if i does not fit any of the above criteria
 			console.log(i);
-			document.write(i);
+			document.write(i + " ");
 		}
 	}
 };
