@@ -23,7 +23,7 @@ var fizzBuzz = function(){
 		}
 	}
 	stringFizz = arrFiz.join(" ");
-	return stringFizz;
+	document.write(stringFizz);
 };
 
 fizzBuzz();
